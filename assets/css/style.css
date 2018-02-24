@@ -255,6 +255,17 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+    #main-container {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .sidebar {
+        float: left;
+    }
 
 }
 @media screen and (max-width: 768px) {
@@ -295,8 +306,15 @@ input[type=submit] {
         margin-bottom: 25px;
     }
 
+    #main-container {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
     .main-section {
         width: 100%;
+        margin: 0px;
     }
 
     nav a {
@@ -306,7 +324,9 @@ input[type=submit] {
         padding-left: 55px;
         line-height: 18px;
     }
+
     .sidebar {
         float: left;
+        margin: 0px;
     }
 }
